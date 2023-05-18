@@ -138,18 +138,6 @@ a {
     gap: 30px;
 }
 
-/* footer */
-.footer {
-    text-align: right;
-    background-color: #1F2937;
-    padding: 40px;
-    color: white;
-    padding: 30px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 
 /* form */
 
