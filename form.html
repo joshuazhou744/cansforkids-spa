@@ -22,70 +22,70 @@
     </div>
     
     <div class="formcontainer">
-        <form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeEYtt7OauUiQ9SC92XqmDvYRuInhavnW2H3-M_yFpxjNIDaQ/formResponse">
-
-            <div class="email">
+        <form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeEYtt7OauUiQ9SC92XqmDvYRuInhavnW2H3-M_yFpxjNIDaQ/formResponse" method="post">
+            <h1>Order Form</h1>
+            <div class="email form-element">
                 <label for="schoolemail">Main Contact Email -- 
                     For Teachers/Supervisors monitoring the trash can painting</label>
-                <input type="text" name="entry.1075447504" required placeholder="Email" id="schoolemail">
+                <input type="email" name="entry.1075447504" required placeholder="Email" id="schoolemail">
             </div>
 
-            <div class="name">
+            <div class="name form-element">
                 <label for="schoolname">School Name</label>
                 <input type="text" name="entry.1556491262" required placeholder="School Name" id="schoolname">
             </div>
 
-            <div class="address">
+            <div class="address form-element">
                 <label for="schooladdress">School Address</label>
                 <input type="text" name="entry.1070567012" required placeholder="Address" id="schooladdress">
             </div>
 
-            <div class="ward">
+            <div class="ward form-element">
                 <label for="schoolward">Which Edmonton ward is the school located in? 
                     If N/A, please write the name of the school's neighbourhood</label>
                 <input type="text" name="entry.1170727528" required placeholder="Ward/Community Name" id="schoolward">
             </div>
 
-            <div class="gradelevel">
-                Grade level of students handling trash cans:
+            <div class="gradelevel form-element">
+                <label>Grade level of students handling trash cans:</label>
                 <div class="gradeoptions">
-                    <label for="kindergarten">Kindergarten and below</label>
                     <input type="checkbox" name="entry.943940780" id="kindergarten" value="Kindergarten and below">
+                    <label for="kindergarten">Kindergarten and below</label>
                 </div>
                 <div class="gradeoptions">
-                    <label for="grade1">Grade 1</label>
                     <input type="checkbox" name="entry.943940780" id="grade1" value="Grade 1">
+                    <label for="grade1">Grade 1</label>
                 </div>
                 <div class="gradeoptions">
-                    <label for="grade2">Grade 2</label>
                     <input type="checkbox" name="entry.943940780" id="grade2" value="Grade 2">
+                    <label for="grade2">Grade 2</label>
                 </div>
                 <div class="gradeoptions">
-                    <label for="grade3">Grade 3</label>
                     <input type="checkbox" name="entry.943940780" id="grade3" value="Grade 3">
+                    <label for="grade3">Grade 3</label>
                 </div>
-                <div class="gradeoptions">
-                    <label for="grade4">Grade 4</label> 
+                <div class="gradeoptions"> 
                     <input type="checkbox" name="entry.943940780" id="grade4" value="Grade 4">
+                    <label for="grade4">Grade 4</label>
                 </div>
                 <div class="gradeoptions">
-                    <label for="grade5">Grade 5</label>
                     <input type="checkbox" name="entry.943940780" id="grade5" value="Grade 5">
+                    <label for="grade5">Grade 5</label>
                 </div>
                 <div class="gradeoptions">
-                    <label for="grade6">Grade 6</label>
                     <input type="checkbox" name="entry.943940780" id="grade6" value="Grade 6">
+                    <label for="grade6">Grade 6</label>
                 </div>
                 <div class="gradeoptions">
-                    <label for="grade6+">Grade 6+</label>
                     <input type="checkbox" name="entry.943940780" id="grade6+" value="Grade 6+">
+                    <label for="grade6+">Grade 6+</label>
                 </div>
             </div>
 
-            <div class="cannum">
+            <div class="cannum form-element">
                 <label for="">How many cans could your school paint?</label>
-                <div class="radio-button">
-                    <input type="radio" name="entry.1761826515" id="1can" value="1" />
+                <div class="radio">
+                    <input type="radio" name="entry.1761826515" id="1can" value="1" required/>
                     <label for="1can">1</label> <br/>
 
                     <input type="radio" name="entry.1761826515" id="2cans" value="2" />
@@ -99,10 +99,10 @@
                 </div>
             </div>
 
-            <div class="studentnum">
+            <div class="studentnum form-element">
                 <label>How many students do you have to paint/work on the cans?</label>
                 <div class="radio">
-                    <input type="radio" name="entry.1912570455" id="10kids" value="0-10">
+                    <input type="radio" name="entry.1912570455" id="10kids" value="0-10" required>
                     <label for="10kids">0-10</label><br />
 
                     <input type="radio" name="entry.1912570455" id="20kids" value="10-20">
@@ -122,11 +122,11 @@
                 </div>
             </div>
 
-            <div class="managewaste">
+            <div class="managewaste form-element">
                 <label>Would your school be able to place cans in your own parks/fields, 
                     and manage the disposal waste from those trash cans?</label>
                 <div class="radio">
-                    <input type="radio" name="entry.1782361235" id="yes" value="Yes">
+                    <input type="radio" name="entry.1782361235" id="yes" value="Yes" required>
                     <label for="yes">Yes</label><br />
 
                     <input type="radio" name="entry.1782361235" id="no" value="No">
@@ -134,36 +134,36 @@
                 </div>
             </div>
 
-            <div class="gradelevel">
-                On what days would we be able to pick up/drop cans off?  
-                (Weekends are preferable for our volunteers, 
-                but hopefully we will be able to work on a solution)
+            <div class="gradelevel form-element">
+                <label>On what days would we be able to pick up/drop cans off?  
+                    (Weekends are preferable for our volunteers, 
+                    but hopefully we will be able to work on a solution)</label>
                 <div class="schedoptions">
-                    <label for="morning">Weekday Mornings</label>
                     <input type="checkbox" name="entry.191330590" id="morning" value="Weekday Mornings">
+                    <label for="morning">Weekday Mornings</label>
                 </div>
                 <div class="schedoptions">
-                    <label for="afterschool">Weekday After-School</label>
                     <input type="checkbox" name="entry.191330590" id="afterschool" value="Weekday After-School">
+                    <label for="afterschool">Weekday After-School</label>
                 </div>
                 <div class="schedoptions">
-                    <label for="saturday">Saturday</label>
                     <input type="checkbox" name="entry.191330590" id="saturday" value="Saturday">
+                    <label for="saturday">Saturday</label>
                 </div>
                 <div class="schedoptions">
-                    <label for="sunday">Sunday</label>
                     <input type="checkbox" name="entry.191330590" id="sunday" value="Sunday">
+                    <label for="sunday">Sunday</label>
                 </div>
                 <div class="schedoptions">
-                    <label for="specific">Specific days on weekends if planned in advance</label>
                     <input type="checkbox" name="entry.191330590" id="specific" value="Specific days on weekends if planned in advance">
+                    <label for="specific">Specific days on weekends if planned in advance</label>
                 </div>
             </div>
 
-            <div class="artsupplies">
+            <div class="artsupplies form-element">
                 <label>Are you in need of acrylics and brushes?</label>
                 <div class="radio">
-                    <input type="radio" name="entry.1577487505" id="yes" value="Yes">
+                    <input type="radio" name="entry.1577487505" id="yes" value="Yes" required>
                     <label for="yes">Yes</label><br />
 
                     <input type="radio" name="entry.1577487505" id="no" value="No">
@@ -171,32 +171,28 @@
                 </div>
             </div>
 
-            <div class="times">
+            <div class="times form-element">
                 <label for="schooltimes">Please specify school start + closing times, 
                     as well as what times on each day would work best.</label>
-                <input type="text" name="entry.840323017" required id="schooltimes">
+                <textarea name="entry.840323017" required id="schooltimes" cols="30" rows="10"></textarea>
             </div>
 
-            <div class="concerns">
+            <div class="concerns form-element">
                 <label for="schoolconcerns">Are there any concerns or issues with your students handling acrylic paints, 
                     or being near fully cleaned and lightly used trash cans? 
                     Let us know what we could do to address those concerns as well.</label>
-                <input type="text" name="entry.9508165" required id="schoolconcerns">
+                <textarea name="entry.9508165" required id="schoolconcerns" cols="30" rows="10"></textarea>
             </div>
 
-            <div class="questions">
+            <div class="questions form-element">
                 <label for="schoolquestions">Any other questions of concerns? 
                     Thank you for all of your time and support! Hope to speak with you soon.</label>
-                <input type="text" name="entry.1575676725" required id="schoolquestions">
+                <textarea name="entry.1575676725" required id="schoolquestions" cols="30" rows="10"></textarea>
             </div>
 
-            <button type="submit">Submit Form</button>
+            <button class="submit" type="submit">Submit Form</button>
 
         </form>
-        <div class="formtext">
-            <h3>Please fill out this form with as much information as possible</h3>
-            <h4>Please email or call us using the Contact section for special inquiries and requests</h4>
-        </div>
     </div>
 </body>
 </html>
