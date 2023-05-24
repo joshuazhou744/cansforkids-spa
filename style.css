@@ -73,6 +73,7 @@ a {
     justify-content: center;
     padding-bottom: 70px;
     background-color: steelblue;
+    font-family: 'Inter';
 }
 
 .image {
@@ -146,6 +147,7 @@ a {
     background-color: steelblue;
     padding: 30px;
     gap: 40px;
+    font-family: 'Inter';
 }
 
 li {
@@ -202,7 +204,7 @@ input, textarea {
     width: 100%;
     padding: 20px;
     color: black;
-    background-color: lightsteelblue;
+    background-color: steelblue;
 }
 
 /* main2 */
@@ -212,7 +214,9 @@ input, textarea {
     padding: 80px;
     justify-content: center;
     background-color: lightseagreen;
+    font-family: 'Inter';
 }
+
 
 
 .text2 {
